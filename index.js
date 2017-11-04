@@ -17,6 +17,3 @@ function tailsNeverFails()
     {tails++;}
     return tails;
   }
-
-
-}
