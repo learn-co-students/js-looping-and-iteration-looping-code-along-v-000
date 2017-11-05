@@ -7,13 +7,12 @@ function printBadges(arr)
   }
   return  arr;
 }
-
 function tailsNeverFails()
 
 {
   let tails = 0;
-  let num = Math.floor(Math.random()*10+1)
-  while(num>= 0.5)
-    {tails++;}
-    return tails;
-  }
+   while(Math.random()>= 0.5) {
+      tails++;
+    }
+    return 'You got '+tails+' tails in a row!';
+}
