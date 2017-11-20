@@ -10,11 +10,12 @@ function tailsNeverFails() {
   count = 0
 
     function maybeTrue(){
-      return Math.random() => 0.5;
+      return Math.random() >= 0.5;
     }
 
     while(maybeTrue()){
       count++;
     }
-  return count
+
+  return `You got ${count} tails in a row!`
 }
