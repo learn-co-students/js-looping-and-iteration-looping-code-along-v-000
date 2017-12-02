@@ -72,7 +72,7 @@ describe('index.js', () => {
         .onCall(7).returns(0.6)
         .onCall(8).returns(0.4);
 
-      expect(tailsNeverFails()).to.eq('You got 8 tails in a row!');
+      expect(tailsNeverFails()).to.eq('You got 9 tails in a row!');
     });
   });
 });
