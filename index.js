@@ -15,7 +15,7 @@ function wrapGifts(gifts){
 wrapGifts(gifts);
 
 function printBadges(employeeNames) {
-  for (var i = 0; i < employeeNames.length; i++) {
+  for (let i = 0; i < employeeNames.length; i++) {
     console.log(`Welcome ${employeeNames[i]}! You are employee #${i + 1}.`);
   }
   return employeeNames;
