@@ -7,11 +7,9 @@ function printBadges(names){
 }
 
 function tailsNeverFails(){
-  let flip;
-  let flips = 0
-  while(flip !== 0){
-    flip = Math.round(Math.random())
+  let flips = 0;
+  while(Math.round(Math.random())!== 0){
     flips++
   }
-    return `You got ${flips - 1} tails in a row!`
+    return `You got ${flips} tails in a row!`
 }
