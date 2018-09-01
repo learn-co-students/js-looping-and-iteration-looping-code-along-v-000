@@ -13,8 +13,6 @@ wrapGifts(gifts);
 
 
 
-const names = []
-
 function printBadges (names) {
   for (let i = 0; i < names.length; i++) {
     console.log(`Welcome ${names[i]}! You are employee #${i + 1}.`);
@@ -25,17 +23,12 @@ function printBadges (names) {
 }
 
 
-function maybeTrue() {
-  return Math.random() >= 0.5;
-}
-
-
 function tailsNeverFails() {
-  let i = 0
+  let tails = 0
 
-  while (maybeTrue()) {
-    i++;
+  while (Math.random() >= 0.5) {
+    tails++;
   }
-  return `You got ${i} tails in a row!`;
+  return `You got ${tails} tails in a row!`;
 
 }
