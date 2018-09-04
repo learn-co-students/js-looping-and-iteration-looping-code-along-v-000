@@ -9,3 +9,13 @@ function printBadges(names) {
 }
 
 printBadges(names);
+
+
+
+function tailsNeverFails () {
+  let i = 0;
+  while (Math.random() >= 0.5) {
+    i++;
+  }
+  return `You got ${[i]} tails in a row!`;
+}
