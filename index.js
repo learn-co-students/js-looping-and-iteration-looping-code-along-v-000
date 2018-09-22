@@ -1,17 +1,16 @@
-function printBadges(names) {
-  for (let i = 0; i < names.length; i++) {
-    console.log(`Welcome ${names[i]}! You are employee #${i + 1}.`)
-  }
-
-  return names;
+function printBadges(array) {
+	for (let i = 0; i < array.length; i++) {
+		console.log(`Welcome ${array[i]}! You are employee #${i + 1}.`);
+	}
+	return array;
 }
 
 function tailsNeverFails() {
-  let tails = 0;
+	let tailsCounter = 0;
+	
+	while(Math.random() >= 0.5) {
+		tailsCounter++;
+	}
 
-  while (Math.random() >= 0.5) {
-    tails++
-  }
-
-  return `You got ${tails} tails in a row!`
+	return `You got ${tailsCounter} tails in a row!`;
 }
