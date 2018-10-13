@@ -5,10 +5,6 @@ function printBadges(employee) {
   return employee
 }
 
-// function flipTails() {
-//   Math.random() >= 0.5
-// }
-
 function tailsNeverFails() {
   let flipCount = 0
 
