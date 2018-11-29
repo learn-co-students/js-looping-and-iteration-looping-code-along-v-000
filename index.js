@@ -9,7 +9,7 @@ function printBadges(badge) {
 
 
 function flipACoin() {
-  return a >= 0.5 ? 'Tails' : 'Heads';
+  return Math.random() >= 0.5 ? 'Tails' : 'Heads';
 }
 
 function tailsNeverFails() {
@@ -17,5 +17,5 @@ function tailsNeverFails() {
   while (flipACoin() === 'Tails') {
     x++;
   }
-  console.log(`You got ${x} tails in a row!`);
+  return `You got ${x} tails in a row!`;
 }
