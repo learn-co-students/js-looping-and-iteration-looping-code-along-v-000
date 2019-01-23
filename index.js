@@ -10,10 +10,6 @@ function tailsNeverFails() {
     return Math.random() >= 0.5;
   }
   let i = 0;
-  // do {
-  //   i += 1;
-  //
-  // } while (tails())
   while (tails()) {
     i++;
   }
