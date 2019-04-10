@@ -10,8 +10,8 @@ function printBadges(employees) {
 
 function tailsNeverFails() {
   let counter = 0
-  while (Math.random >= 0.5) {
-    console.log("You got ${counter =+ 1} tails in a row!")
-
+  while (Math.random() >= 0.5) {
+    counter++
   }
+  console.log("You got ${counter} tails in a row!")
 }
