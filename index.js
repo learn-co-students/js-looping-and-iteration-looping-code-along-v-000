@@ -9,16 +9,13 @@ function printBadges(name) {
     return name
 }
 
-let counter = 0;
-
 function tailsNeverFails() {
-    return Math.random() >= 0.5;
-        counter++;
-            //([condition]) 
-        while (tailsNeverFails()) {
-            
-            //[loop body]
-            
-        console.log(`You got ${counter+1} tails in a row!`);
+    let tailsCounter = 0;
+       //([condition]) 
+    while (Math.random() >= 0.5) {
+        //[loop body]
+        tailsCounter++;
+        
     }
+    return`You got ${tailsCounter} tails in a row!`;
 }
