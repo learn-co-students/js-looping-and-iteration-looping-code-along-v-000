@@ -1,16 +1,22 @@
 function writeCards(arrayOfNames, eventName) {
 	let cards = [];
-	let result;
 	for (let i = 0; i < arrayOfNames.length; i++) {
-		result = `Thank you, ${arrayOfNames[i]}, for the wonderful ${eventName} gift!`;
-		cards.push(result);
+		cards.push(`Thank you, ${arrayOfNames[i]}, for the wonderful ${eventName} gift!`);
 	}
 	return cards;
 }
 
-function countdown() {
-	let countdown = 10;
-	while (countdown > -1) {
-		console.log(countdown--);
+function countdown(value) {
+	while (value > -1) {
+		console.log(value--);
 	}
 }
+
+
+// function countdown( countdown ) {
+//   while ( countdown > 0 ) {
+//     console.log( countdown );
+//     countdown -= 1;
+//   }
+//   console.log( countdown );
+// }
