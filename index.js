@@ -7,3 +7,11 @@ function writeCards(names, event){
   }
   return messages
 }
+
+function countdown(num){
+  let i = num
+  while (i > 0){
+    console.log(i)
+    i--
+  }
+}
