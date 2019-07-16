@@ -7,10 +7,10 @@ function writeCards (names, event) {
  return messages;
 };
 
-function countdown (number) {
-  let countdown = number;
-  while (countdown >= 0) {
+function countdown (countdown) {
+  while (countdown > 0) {
     console.log(countdown);
-    countdown--;
+    countdown -= 1;
   };
+  console.log(countdown);
 };
