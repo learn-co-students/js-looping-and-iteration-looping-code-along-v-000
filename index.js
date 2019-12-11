@@ -14,7 +14,6 @@ function countDown(number) {
     var newNumber = number - 1;
     countDown(newNumber);
   }
-  else if (number == 0) {
-    console.log(number);
-     }
+  console.log(number);
+     
 }
