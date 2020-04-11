@@ -9,3 +9,10 @@ function writeCards(names, event) {
   
   return cards;
 }
+
+function countDown(num) {
+  while (num >= 0) {
+    console.log(num);
+    num--;
+  }
+}
