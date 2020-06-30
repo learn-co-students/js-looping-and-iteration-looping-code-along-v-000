@@ -1,5 +1,4 @@
 
-
 function writeCards(names, event) {
   let messageArray = [];
   for (let i = 0; i < names.length; i++) {
